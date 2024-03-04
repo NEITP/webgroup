@@ -1,0 +1,188 @@
+/* main.css */
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+  background-color: 		lemonchiffon;
+}
+
+h1, p {
+  text-align: center;
+ color: black;
+}
+
+
+h1 {
+  font-size: 2vw;
+ 
+}
+
+p {
+  font-size: 2vw;
+}
+.anhnhomnho {
+  position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+  height: auto;
+  border-radius: 100px; 
+
+}
+.imgnhom {
+  text-align: center; /* căn giữa theo chiều ngang */
+}
+
+.imgnhom img {
+  max-width: 1500px;
+  height: auto;
+  border-radius: 100px;
+  display: block; /* đảm bảo hình ảnh là một phần tử block để căn giữa theo chiều ngang */
+  margin-left: auto; /* căn giữa theo chiều ngang */
+  margin-right: auto; /* căn giữa theo chiều ngang */
+}
+
+
+
+.onecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.one {
+  margin: 20px;
+  text-align: center;
+  flex: 1 1 200px; 
+}
+
+.one ul {
+  list-style: none; 
+}
+
+.one img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; 
+}
+
+
+.vid {
+  text-align: center;
+}
+
+
+.vid video {
+  border-radius: 20px; 
+}
+
+/* CSS cho phần footer */
+footer {
+  background-color: #333; /* Màu nền */
+  color: #fff; /* Màu chữ */
+  padding: 20px; /* Khoảng cách nội dung từ mép */
+  text-align: center; /* Canh giữa nội dung */
+  font-size: 16px; /* Kích thước chữ */
+}
+
+/* CSS cho phần footer trong class contactcha */
+.contactcha {
+  background-color: #222; /* Màu nền */
+}
+
+/* CSS cho tiêu đề trong footer */
+footer h2 {
+  margin-bottom: 10px; /* Khoảng cách giữa tiêu đề và nội dung */
+}
+
+/* CSS cho các liên kết trong footer */
+footer a {
+  color: #fff; /* Màu chữ */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  margin: 0 10px; /* Khoảng cách giữa các liên kết */
+}
+
+/* Hiệu ứng hover cho các liên kết trong footer */
+footer a:hover {
+  text-decoration: underline; /* Gạch chân khi hover */
+}
+
+.anhnhomnho img {
+width: 200px; 
+height: auto;
+border-radius: 50%; 
+}
+#nav li{
+  display: inline-block;
+  position: relative;
+}
+#nav > li >a{
+  color: #fff;
+}
+#nav li a{
+  color:#000;
+  text-decoration: none;
+  line-height: auto;
+  padding: 0 24px;
+}
+#nav li:hover a{
+  color: #000;
+  background-color: #fff;
+  display: inline-block;
+  
+}
+ul.subnav {
+  display: none; 
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left; 
+}
+
+ul#nav li:hover ul.subnav {
+  display: block; 
+}
+
+ul.subnav li {
+  float: none;
+  padding: 10px;
+  text-align: left; 
+}
+
+ul.subnav li a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  font-size: 100%;
+}
+
+ul.subnav li a:hover {
+  background-color: #ddd;
+}
+#main {
+  background-color: #fff; /* Màu nền #333 cho main */
+  color: #ffffff; /* Màu chữ trắng */
+}
+
+#nav a {
+  color: #333; /* Màu chữ trắng cho các liên kết trong #nav */
+}
+
+#nav .subnav a {
+  color: #000000; /* Màu chữ đen cho các liên kết trong .subnav */
+}
+
+#nav .subnav {
+  background-color: #fff; /* Màu nền trắng cho .subnav */
+}
+#nav{
+  background-color: #CC3333;
+}
